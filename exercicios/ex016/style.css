@@ -1,0 +1,39 @@
+@charset "UTF-8"; /* REGRA */
+
+/* 1º FONTE */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%;*/
+}
+
+/* CORPO = FUNDO DO SITE */
+body {
+    background-image: linear-gradient(to right, #D9D0BF 20%,#A69B92);
+}
+
+/* FUNDO DA PARTE DO TEXTO */
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(35, 34, 34, 0.521);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+/* DESIGN DO H1 */
+h1 { 
+text-align: center;
+text-shadow: 1px 1px 0px rgb(189, 88, 88);
+color: #f18a8a;
+}
+
+/* DESIGN DOS H2 */
+h2 {
+color: #59372F;
+}
+
+/* DESIGN DOS PARÁGRAFOS (p) */
+p {
+    text-align: justify;
+}
